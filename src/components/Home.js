@@ -62,11 +62,11 @@ export class Home extends React.Component {
             },
         }).then((response) => {
             console.log(response);
-            this.setState({ posts: response, loadingPost: false });
+            this.setState({ posts: response, loadingPost: false , error: ''});
         }, (error) => {
-            this.setState({ posts: error.responseText, loadingPost: false });
+            this.setState({ error: error.responseText, loadingPost: false });
         }).catch((error) => {
-            this.setState({ posts: error.responseText });
+            this.setState({ error: error.responseText });
         });
     }
 

@@ -32,7 +32,7 @@ export class CreatePostButton extends React.Component {
             const {lat, lon} = JSON.parse(localStorage.getItem(POS_KEY));
             const formData = new FormData();
             formData.set('lat', lat + Math.random() * LOC_SHAKE * 2 - LOC_SHAKE);
-            formData.set('lon', lon + Math.random() * LOC_SHAKE * 2 - LOC_SHAKEgi);
+            formData.set('lon', lon + Math.random() * LOC_SHAKE * 2 - LOC_SHAKE);
             formData.set('message', form.getFieldValue('message'));
             formData.set('image', form.getFieldValue('image')[0]);
 

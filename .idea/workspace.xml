@@ -30,8 +30,8 @@
       <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="10933" column="7" lean-forward="true" selection-start-line="10933" selection-start-column="7" selection-end-line="10933" selection-end-column="7" />
+            <state relative-caret-position="164">
+              <caret line="9727" column="15" lean-forward="true" selection-start-line="9727" selection-start-column="15" selection-end-line="9727" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -95,6 +95,16 @@
       <find>macaddress</find>
       <find>macaddre</find>
       <find>extend</find>
+      <find>merge</find>
+      <find>react-dev-utils</find>
+      <find>webpack-dev-server</find>
+      <find>randomatic</find>
+      <find>deep-extend</find>
+      <find>cryptiles</find>
+      <find>sshpk</find>
+      <find>url-parse</find>
+      <find>lodash</find>
+      <find>hoek</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -754,8 +764,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="10933" column="7" lean-forward="true" selection-start-line="10933" selection-start-column="7" selection-end-line="10933" selection-end-column="7" />
+        <state relative-caret-position="164">
+          <caret line="9727" column="15" lean-forward="true" selection-start-line="9727" selection-start-column="15" selection-end-line="9727" selection-end-column="15" />
           <folding />
         </state>
       </provider>
